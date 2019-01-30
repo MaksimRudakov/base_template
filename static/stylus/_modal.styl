@@ -1,0 +1,65 @@
+.elipce
+    position fixed
+    z-index 100
+    bottom 0
+    left 0
+    top 0
+    right 0
+    background-color rgba(0,0,0,0.5)
+    -webkit-overflow-scrolling touch
+    display: none
+    cursor pointer
+    overflow scroll
+.modal
+    display: none
+    width: 1000px
+    box-sizing: border-box
+    position relative
+    z-index 101
+    left 50%
+    top 10vh
+    margin-bottom 10vh
+    background-color white
+    transform translateX(-50%)
+    border-radius: 5px
+    padding 20px
+    @media (max-width: 1000px)
+        width 100%
+    &-close
+        position absolute
+        font-size 32px
+        display inline-block
+        cursor: pointer
+        color grey
+        line-height: 0.7
+        bottom 100%
+        left 100%
+        transform: translate(-150%, 125%)
+        &:hover
+            color black
+    &-title
+        text-align center
+        font-size 24px
+        color black
+        margin-bottom 20px
+        @media (max-width: 767px)
+            font-size 20px
+            margin-top 20px
+    &-content
+        width 960px
+        margin 0 auto
+        @media (max-width: 1000px)
+            width 100%
+        table, tr, td
+            border: 1px solid black
+            border-collapse: collapse;
+        table
+            width 100%
+        td
+            padding 3px
+            width  50%
+            vertical-align top
+            @media (max-width: 767px)
+                font-size 13px
+.lock
+    overflow hidden

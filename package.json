@@ -1,0 +1,25 @@
+{
+  "name": "base_template",
+  "version": "1.0.0",
+  "description": "Packages",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rudakov Maxim",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-pug-beautify": "0.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.1",
+    "gulpfile.js": "^2.3.0"
+  }
+}
